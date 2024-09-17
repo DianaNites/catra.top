@@ -1,1 +1,1 @@
-![Catra sitting on adora](./images/top.jpg]
+![Catra sitting on adora](./images/top.jpg)
