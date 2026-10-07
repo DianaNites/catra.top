@@ -1,0 +1,6 @@
+post-blog name dir="":
+    #!/usr/bin/env bash
+    # dir={{ quote(dir) }}/
+    dir=""
+    slug=$(echo "{{ name }}" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g' | sed -E 's/^-+|-+$//g')
+    hugo new --kind post blog/${dir}/"$slug".md
