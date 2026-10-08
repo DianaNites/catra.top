@@ -10,6 +10,8 @@ ShowWordCount: true
 url: "/posts/2a74bf3f/my-experience-trying-for-setting-up-a-homelab/"
 aliases: [
     "/posts/2a74bf3f",
+    "/blog/2a74bf3f/my-experience-trying-for-setting-up-a-homelab/",
+    "/blog/2a74bf3f",
 ]
 ---
 
