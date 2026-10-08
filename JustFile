@@ -3,4 +3,5 @@ post-blog name dir="":
     # dir={{ quote(dir) }}/
     dir=""
     slug=$(echo "{{ name }}" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g' | sed -E 's/^-+|-+$//g')
+    export TZ=UTC
     hugo new --kind post blog/${dir}/"$slug".md
